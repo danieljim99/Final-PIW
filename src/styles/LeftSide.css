@@ -1,0 +1,30 @@
+.LeftSide {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 25%;
+    justify-content: space-evenly;
+    border-right: 1px solid grey;
+}
+
+.CreateRepositoryButton {
+    display: flex;
+    border: 1px solid rgb(10, 83, 14);
+    width: 140px;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(79, 230, 79);
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.Followers {
+    display: flex;
+    cursor: pointer;
+    color: blue;
+}
+
+.Followers:hover {
+    color: rgb(128, 128, 250);
+}

@@ -1,0 +1,8 @@
+.RightSide {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    width: 25%;
+    justify-content: space-evenly;
+    border-left: 1px solid grey;
+}
